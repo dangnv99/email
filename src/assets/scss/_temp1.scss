@@ -1,0 +1,167 @@
+.heading {
+    color: red;
+}
+
+th.small-12.large-12.columns.first.last {
+    padding: 0 47px;
+}
+
+.top_header {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    background: #F62369;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+
+
+.banner {
+    img {
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+
+.manage {
+    background: #D2D942;
+    color: #000000;
+    height: auto;
+    min-height: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 32px;
+}
+
+.manage_p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    margin: unset !important;
+}
+
+.countdown_ul {
+    padding: unset;
+    display: inline-flex;
+}
+
+.countdown_li {
+    display: inline-block;
+    font-size: 1rem;
+    list-style-type: none;
+    padding: 0 1em;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.countdown_span {
+    display: block;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info_doing {
+    // margin-right: 1rem;
+}
+
+.text_thanks {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.text_whatdoing {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: bolder;
+    color: #F62369;
+    font-size: 1.6rem;
+}
+
+.text_doing {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.btn_email {
+    background: #F62369 !important;
+    border-radius: 10px;
+}
+
+table.button table td {
+    background: #F62369 !important;
+    border-radius: 10px;
+    border: unset;
+    font-size: 1rem;
+}
+
+table.button table td a {
+    font-size: 13px;
+}
+
+
+
+.tooltip {
+    position: relative;
+}
+
+
+a.install.tooltip {
+    position: absolute;
+    top: 52%;
+    right: 64%;
+    min-width: 70px;
+    min-height: 2rem;
+    padding: 5px 10px;
+    background: #740303;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.tooltip:hover:before,
+.tooltip:hover:after {
+    display: block;
+}
+
+
+.countdown {
+    overflow: hidden;
+    position: relative;
+}
+
+.countdown-hidden {
+    background: rgb(254, 254, 254) !important;
+    color: #740303;
+    cursor: pointer;
+    display: block;
+    min-height: 0.6rem;
+    padding: 0 8rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 5px;
+}
+
+
+.countdown:hover:before {
+    display: block;
+}

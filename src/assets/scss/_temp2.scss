@@ -1,0 +1,43 @@
+.btn_reply_email td {
+    border-radius: unset !important;
+    background-color: #E1C294 !important;
+
+}
+
+.btn_reply_email a {
+    background-color: #E1C294 !important;
+    border-radius: unset !important;
+    color: #333 !important;
+}
+
+.btn_email {
+    background: #F62369 !important;
+    border-radius: 10px;
+}
+
+.btn_reply_email a {
+    color: #333 !important;
+    width: 100%;
+    padding: 7px !important;
+}
+
+svg.iconify.iconify--icomoon-free.float-center {
+
+    font-size: 2rem;
+}
+
+.btn_reply_email {
+    position: relative;
+}
+
+.btn_icon {
+    color: #f62369;
+    /* font-size: x-large; */
+    position: absolute;
+    right: -1.5rem;
+    top: 1.5rem;
+
+    img {
+        max-width: 65%;
+    }
+}
