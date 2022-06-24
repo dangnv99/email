@@ -13,6 +13,19 @@
 .btn_email {
     background: #F62369 !important;
     border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .btn_reply_email a {
@@ -27,17 +40,61 @@ svg.iconify.iconify--icomoon-free.float-center {
 }
 
 .btn_reply_email {
-    position: relative;
+    //position: relative;
 }
 
 .btn_icon {
     color: #f62369;
     /* font-size: x-large; */
-    position: absolute;
+    // position: absolute;
     right: -1.5rem;
     top: 1.5rem;
+    margin-left: 33%;
+    margin-top: -1%;
 
     img {
         max-width: 65%;
     }
+}
+
+.imglayout {
+    // background: #F62369 !important;
+    // //padding: 2rem;
+    // position: relative;
+    // width: 50%;
+    // height: 5rem;
+    background: #F62369 !important;
+    width: 50%;
+    height: 0.5rem;
+
+}
+
+.imglayoutS {
+    background: #F62369 !important;
+    width: 0.5rem;
+    height: 80px;
+}
+
+.imgInfo {
+    // //position: absolute;
+    // top: 0.5rem;s
+    // left: 1.5rem;
+    // margin-left: 0.5rem;
+    // margin-top: -2rem;
+    display: flex;
+}
+
+table.button.btn_reply_email {
+    margin: unset;
+}
+
+@media only screen and (max-width: 600px) {
+    .imglayout {
+        margin-left: 35%;
+        width: 70%;
+    }
+}
+
+th.small-4.large-4.columns.last {
+    padding-left: 45px;
 }
